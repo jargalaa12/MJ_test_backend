@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:traffic_test_app/pages/question_list_screen.dart';
 import 'pages/home.dart';
-import 'pages/quiz_category_screen.dart'; // QuestionListPage-г import хийж байна
+// QuestionListPage-г import хийж байна
 
 void main() {
   runApp(const TrafficTestApp());

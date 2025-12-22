@@ -149,8 +149,9 @@ class _QuizScreenState extends State<QuizScreen> {
 
               Color buttonColor = Colors.blueAccent;
               if (answered) {
-                if (isSelected && isCorrect) buttonColor = Colors.green;
-                else if (isSelected && !isCorrect) buttonColor = Colors.red;
+                if (isSelected && isCorrect) {
+                  buttonColor = Colors.green;
+                } else if (isSelected && !isCorrect) buttonColor = Colors.red;
                 else if (isCorrect) buttonColor = Colors.green.shade400;
                 else buttonColor = Colors.grey.shade400;
               }
